@@ -3,51 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Bluetiful The Clown</title>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <header>
-       <nav id=""top-nav>
-           <div id="brand">
-               <p>BLUEtiful the Clown</p>
-           </div>
-            <ul>
-               <li><a href="#about">About</a></li>
-               <li><a href="#booking">Booking</a></li>
-               <li><a href="#gallery">Gallery</a></li>
-            </ul>
-       </nav> <!-- end top-nav-->
-       <h1>BLUEtiful the Clown</h1>
-       <h2>Make it a BLUEtiful memory...</h2>
-    </header>
-    <section id="main-pics">
-        <p>Face painting, tempory and glitter tattoos, and balloon art in San Diego, CA</p>
-        <img class="main-pic-group" src="images/bluetiful-main-pic.jpg">
-        <img class="main-pic-group" src="images/bluetiful-promo-pic.jpg">
-        <img class="main-pic-group" src="images/bluetiful-with-face-painted-kids.jpg">
-    </section> <!-- end main-pics section -->
-    <section id="story">
-        <p id="story-1">Hi! I'm BLUEtiful the clown. My father always told me I could be anything I wanted to be. My father believed in me and he had big dreams for me. I however had other dreams. When I was about 3 years old, my father was out in the yard building a picket fence and I said, "When I grow up I'm going to be a clown. I can even perform magic. Look, I can walk on nails."
-The next thing I remember was waking up with bandages on my foot. That was the start of Bluetiful the clown...
-        </p>
-        <p id="story-2">
-            I didn't think about being a clown again until my son Miguel was in kindergarten and about to turn 6 years old. I wanted to hire a clown for his party but I soon found out that a clown was not affordable to me. I thought to myself, "I could be the clown". With the help of my sweet friend Janet, we were the hit of the party. We had a lot of FUN! Thank you Janet.
-        </p>
-        <p id="story-3">
-            Since that day, I became passionate about being the best clown I could be. I was determined and practiced day and night. I'm always growing as a clown and have done many parties since then.  You can inquire about <a href="#" id="book">booking me</a> for your event or check out my <a href="#">gallery</a> and/or <a href="#">facebook</a> to see more of my work and what I'm currently up to. To my dad (in memory) and to my three children. I hope I make you proud!
-        </p>
-    </section> <!-- end story section -->
-    <footer>
-        <p>&copy; 2015 Bluetiful the clown</p>
-        <ul id="footer-menu">
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Booking</a></li>
-            <li><a href="#">facebook</a></li>
-        </ul>
-    </footer>
+    <div id="header-wrapper">
+        <header>
+           <nav class="group" id="top-nav">
+               <div id="brand">
+                   <p><span id="bluetiful-brand">BLUEtiful</span>&nbsp; the Clown</p>
+               </div>
+                <ul>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#booking">Booking</a></li>
+                   <li><a href="#gallery">Gallery</a></li>
+                </ul>
+           </nav> <!-- end top-nav-->
 
+        </header>
+    </div> <!-- End Wrapper -->
+    <div id="body-wrapper">
+        <section id="headline" class="group">
+          <h1>BLUEtiful the Clown</h1>
+          <h2>Make it a BLUEtiful memory...</h2>
+          <p>Face painting, tempory / glitter tattoos, and balloon art in San Diego, CA</p>
+        </section>
+
+        <section id="main-pics">
+            <img class="main-pic-group" id="main-pic" alt="picture of Bluetiful the clown" src="images/bluetiful-main-pic.jpg">
+<!--
+            <img class="main-pic-group" id="blue-promo-pic" src="images/bluetiful-promo-pic.jpg">
+            <img class="main-pic-group" id="blue-with-fp-kids" src="images/bluetiful-with-face-painted-kids.jpg">
+-->
+        </section> <!-- end main-pics section -->
+        <section id="story" class="group">
+            <p id="story-1">Hi! I'm BLUEtiful the clown. My father always told me I could be anything I wanted to be. My father believed in me and he had big dreams for me. I however had other dreams. When I was about 3 years old, my father was out in the yard building a picket fence and I said, "When I grow up I'm going to be a clown. I can even perform magic. Look, I can walk on nails."
+    The next thing I remember was waking up with bandages on my foot. That was the start of Bluetiful the clown...
+            </p>
+            <p id="story-2">
+                I didn't think about being a clown again until my son Miguel was in kindergarten and about to turn 6 years old. I wanted to hire a clown for his party but I soon found out that a clown was not in my budget. I thought to myself, "I could be the clown". With the help of my sweet friend Janet, we were the hit of the party. We had a lot of FUN! Thank you Janet.
+            </p>
+            <p id="story-3">
+                Since that day, I became passionate about being the best clown I could be. I was determined and practiced day and night. I'm always growing as a clown and have done many parties since then.  You can inquire about <a href="#" id="book">booking me</a> for your event or check out my <a href="#">gallery</a> and/or <a href="#">facebook</a> to see more of my work and what I'm currently up to. To my dad (in memory) and to my three children. I hope I make you proud!
+            </p>
+        </section> <!-- end story section -->
+<!--
+        <footer>
+            <p>&copy; 2015 Bluetiful the clown</p>
+            <ul id="footer-menu">
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Booking</a></li>
+                <li><a href="#">facebook</a></li>
+            </ul>
+        </footer>
+-->
+    </div> <!--End wrapper div-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.29/skrollr.min.js"></script>
     <script>var s = skrollr.init();</script>
-
 </body>
 </html>
